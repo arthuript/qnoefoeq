@@ -1,0 +1,14 @@
+name: CI-proof-of-concept
+
+on: push
+
+jobs:
+  continuos-integration:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: job
+        run: |
+          echo 'oi' > t
+          ls
+          cat t
