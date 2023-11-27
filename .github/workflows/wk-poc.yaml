@@ -4,7 +4,7 @@ on: push
 
 jobs:
   continuos-integration:
-    runs-on: ubuntu-latest
+    runs-on: self-host
 
     steps:
       - name: job
